@@ -57,10 +57,9 @@ a{
 }
 .top{
     display: flex;
-    padding: 32px;
+    padding: 60px 32px;
     justify-content: space-around;
     gap: 20px;
-    padding-bottom: 60px;
 }
 
 .site-info{
@@ -72,14 +71,17 @@ a{
     margin-bottom: 12px;
 
 }
+.sign-up{
+    border: 0px;
+    padding: 6px 36px;
+    border-radius: 6px;
+    font-size: 18px;
+}
 
 .top .sign-up{
     color: #F9FAF8;
     background-color: #3882F6;
-    border: 0px;
-    padding: 8px 16px;
-    border-radius: 6px;
-    font-size: 18px;
+
 }
 
 .top .image-holder{
@@ -95,7 +97,8 @@ a{
 /* random info */
 
 .random-info{
-    padding: 32px;
+    padding: 60px 32px;
+
 }
 
 .random-info .title{
@@ -126,4 +129,70 @@ a{
 }
 .card p{
     margin-top: 12px;
+}
+
+/* quote area */
+
+.quote{
+
+    padding: 60px 32px;
+    background-color: #E5E7EB;    
+}
+
+.quote p{
+    font-size: 36px;
+    font-style:italic;
+    color: #1F2937;
+    font-weight: 300; 
+}
+.quote .sign{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: end; 
+}
+
+/* call section */
+
+.call-section{
+    padding: 60px 32px;
+}
+
+.call{
+    background: #3882F6;
+    border-radius: 8px;
+    padding: 30px 60px;
+    color: #F9FAF8;
+    display: flex;
+    font-size: 16px;
+    justify-content: space-between;
+
+}
+
+
+.call .button{
+margin-left: 12px;
+flex-shrink: 0;
+flex-grow: 0;
+}
+.call .sign-up{
+    background: none;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    
+}
+
+.call .title{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+/* footer */
+
+.footer{
+    height: 60px;
+    text-align: center;
+    align-content: center;
+    color: #E5E7EB;
 }
